@@ -3,51 +3,60 @@
   "correction": 1.8,
   "threshold": 12.0,
   "release_ratio": 0.65,
-  "button_short": "lmb",
-  "button_hold": "rmb",
   "button_hold_threshold": 0.35,
   "double_click_window": 0.32,
-  "active_profile": "primary",
-  "alt_button_short": "e",
-  "alt_button_hold": "rmb",
-  "alt_axes": {
-    "roll": {
-      "negative": "left",
-      "positive": "right",
-      "invert": false,
-      "enabled": true
+  "active_profile": "1",
+  "profile_sequence": "12",
+  "profiles": {
+    "1": {
+      "name": "1",
+      "axes": {
+        "roll": {
+          "negative": "a",
+          "positive": "d",
+          "invert": true,
+          "enabled": true
+        },
+        "pitch": {
+          "negative": "s",
+          "positive": "w",
+          "invert": false,
+          "enabled": true
+        },
+        "yaw": {
+          "negative": "q",
+          "positive": "e",
+          "invert": false,
+          "enabled": false
+        }
+      },
+      "button_short": "lmb",
+      "button_hold": "esc"
     },
-    "pitch": {
-      "negative": "down",
-      "positive": "up",
-      "invert": false,
-      "enabled": true
-    },
-    "yaw": {
-      "negative": "none",
-      "positive": "none",
-      "invert": false,
-      "enabled": false
-    }
-  },
-  "axes": {
-    "roll": {
-      "negative": "a",
-      "positive": "d",
-      "invert": false,
-      "enabled": true
-    },
-    "pitch": {
-      "negative": "s",
-      "positive": "w",
-      "invert": false,
-      "enabled": true
-    },
-    "yaw": {
-      "negative": "q",
-      "positive": "e",
-      "invert": false,
-      "enabled": false
+    "2": {
+      "name": "2",
+      "axes": {
+        "roll": {
+          "negative": "left",
+          "positive": "right",
+          "invert": true,
+          "enabled": true
+        },
+        "pitch": {
+          "negative": "down",
+          "positive": "up",
+          "invert": false,
+          "enabled": true
+        },
+        "yaw": {
+          "negative": "none",
+          "positive": "none",
+          "invert": false,
+          "enabled": false
+        }
+      },
+      "button_short": "e",
+      "button_hold": "q"
     }
   }
 }
