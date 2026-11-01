@@ -1,0 +1,53 @@
+{
+  "gyro_scale": 14.286,
+  "correction": 1.8,
+  "threshold": 12.0,
+  "release_ratio": 0.65,
+  "button_short": "lmb",
+  "button_hold": "rmb",
+  "button_hold_threshold": 0.35,
+  "double_click_window": 0.32,
+  "active_profile": "primary",
+  "alt_button_short": "e",
+  "alt_button_hold": "rmb",
+  "alt_axes": {
+    "roll": {
+      "negative": "left",
+      "positive": "right",
+      "invert": false,
+      "enabled": true
+    },
+    "pitch": {
+      "negative": "down",
+      "positive": "up",
+      "invert": false,
+      "enabled": true
+    },
+    "yaw": {
+      "negative": "none",
+      "positive": "none",
+      "invert": false,
+      "enabled": false
+    }
+  },
+  "axes": {
+    "roll": {
+      "negative": "a",
+      "positive": "d",
+      "invert": false,
+      "enabled": true
+    },
+    "pitch": {
+      "negative": "s",
+      "positive": "w",
+      "invert": false,
+      "enabled": true
+    },
+    "yaw": {
+      "negative": "q",
+      "positive": "e",
+      "invert": false,
+      "enabled": false
+    }
+  }
+}
